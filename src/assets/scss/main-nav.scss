@@ -1,0 +1,313 @@
+/* 圖片佈置 */
+/* KU熱門 divMenuHot*/
+#divMenuHot{
+  .listContainer {
+    width: 250px;
+    .vertical-layout {
+      background: url("/src/assets/images/layout/header/bg_tophot1.png")
+      no-repeat;
+      width: 250px;
+      height: 100%;
+      background-position: left top;
+      &:after {
+        width: 100%;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 340px;
+        visibility: inherit;
+        transition: 0.3s;
+        background: url("/src/assets/images/layout/header/bg_tophot_4.png") no-repeat;
+      }
+    }
+  }
+  #hot_nbb{
+    .vertical-layout {
+        background-position: left top;
+        &:after {
+          background: url("/src/assets/images/layout/header/bg_tophot_4.png") no-repeat;
+        }
+    }
+  }
+
+  #hot_ku {
+    .vertical-layout {
+      background-position: -250px top;
+      &:after {
+        background-position: -250px;
+      }
+    }
+  }
+  #hot_ball {
+    .vertical-layout {
+      background-position: -500px top;
+      &:after {
+        background-position: -500px;
+      }
+    }
+  }
+  #hot_3d {
+    .vertical-layout {
+      background-position: -750px top;
+      &:after {
+          background-position: -750px;
+      }
+    }
+  }
+}
+/* 體育投注 sportid*/
+#sportid{
+  .listContainer {
+    width: 250px;
+    .vertical-layout {
+      height: 100%;
+      .banner_img {
+        width: 250px;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/pic_sportGame12.png") no-repeat;
+      }
+    }
+  }
+  #nbb {
+  }
+  #aBall{
+    .vertical-layout {
+      .banner_img {
+        background-position: -250px top;
+      }
+    }
+  }
+  #pin{
+    .vertical-layout {
+      .banner_img {
+        background-position: -500px top;
+      }
+    }
+  }
+  #obSport{
+    .banner_img {
+      background-position: -750px top;
+    }
+  }
+}
+/* 電子遊戲  slotid*/
+#slotid{
+  .listContainer {
+    width: 200px;
+    .vertical-layout {
+      height: 100%;
+      .banner_img {
+        width: 200px;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/bg_topGame2.png") no-repeat;
+      }
+    }
+  }
+  #ftg {
+  }
+  #bng{
+    .vertical-layout {
+      .banner_img {
+        background-position: -200px top;
+      }
+    }
+  }
+  #aCNF{
+    .vertical-layout {
+      .banner_img {
+        background-position: -400px top;
+      }
+    }
+  }
+  #ds{
+    .banner_img {
+      background-position: -600px top;
+    }
+  }
+  #ps{
+    .banner_img {
+      background-position: -800px top;
+    }
+  }
+}
+/* 捕魚機  fishid*/
+#fishid{
+  .listContainer {
+    width: 250px;
+    .vertical-layout {
+      height: 100%;
+      .banner_img {
+        width: 250px;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/pic_fishGame.png") no-repeat;
+      }
+    }
+  }
+  #nbb {
+  }
+  #aBall{
+    .vertical-layout {
+      .banner_img {
+        background-position: -250px top;
+      }
+    }
+  }
+  #pin{
+    .vertical-layout {
+      .banner_img {
+        background-position: -500px top;
+      }
+    }
+  }
+  #obSport{
+    .banner_img {
+      background-position: -750px top;
+    }
+  }
+}
+/* 真人遊戲  liveid*/
+#liveid{
+  height: 50%;
+  .subList{
+    flex-wrap: wrap;
+  }
+  .listContainer {
+    width: 250px;
+    height: 50%;
+    .horizontal-layout {
+      width: 250px;
+      height: 100%;
+      .banner_img {
+        width: 100%;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/bg_topLive1.png") no-repeat;
+      }
+      .banner_logo {
+        width: 100px;
+        height: 100%;
+      }
+    }
+  }
+  #ab {
+  }
+  #ku {
+    .banner_img {
+      background-position: -250px top;
+    }
+  }
+  #dg {
+    .banner_img {
+      background-position: -500px top;
+    }
+  }
+  #sa {
+    .banner_img {
+      background-position: -750px top;
+    }
+  }
+  #og {
+    .banner_img {
+      background-position: left bottom;
+    }
+  }
+  #wm {
+    .banner_img {
+      background-position: -250px bottom;
+    }
+  }
+  #hg {
+    .banner_img {
+      background-position: -500px bottom;
+    }
+  }
+  #obLive {
+    .banner_img {
+      background-position: -750px bottom;
+    }
+  }
+}
+
+/* 彩球遊戲  ballid*/
+#ballid{
+  height: 100%;
+  .subList{
+    flex-wrap: wrap;
+  }
+  .listContainer {
+    width: 333px;
+    height: 100%;
+    .horizontal-layout {
+      width: 335px;
+      height: 100%;
+      .banner_img {
+        width: 100%;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/bg_topLoto1.png") no-repeat;
+        background-position: right top;
+        padding: 0px 25px;
+      }
+      .banner_logo {
+        width: 100px;
+        height: 100%;
+      }
+    }
+  }
+  #wg {
+    .banner_img {
+      background-position: left top;
+    }
+  }
+  #aColor {
+    .banner_img {
+      background-position: -333px top;
+    }
+  }
+  #sa {
+    .banner_img {
+      background-position: -750px top;
+    }
+  }
+}
+
+/* 電競下注  E-sprotid*/
+#E-sprotid{
+  height: 100%;
+  .subList{
+    flex-wrap: wrap;
+  }
+  .listContainer {
+    width: 333px;
+    height: 100%;
+    .horizontal-layout {
+      width: 335px;
+      height: 100%;
+      .banner_img {
+        width: 100%;
+        height: 100%;
+        background: url("/src/assets/images/layout/header/pic_EsportsGame1.png") no-repeat;
+        background-position: right top;
+        padding: 0px 25px;
+      }
+      .banner_logo {
+        width: 100px;
+        height: 100%;
+      }
+    }
+  }
+  #wg {
+    .banner_img {
+      background-position: left top;
+    }
+  }
+  #aColor {
+    .banner_img {
+      background-position: -333px top;
+    }
+  }
+  #sa {
+    .banner_img {
+      background-position: -750px top;
+    }
+  }
+}
